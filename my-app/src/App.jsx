@@ -69,7 +69,7 @@ function App() {
       {/* Education Section */}
       <section id="education" className="section">
         <div className="container">
-          <h2>Master the Future of Finance</h2>
+          <h2>Education</h2>
           <div className="education-content">
             <div className="education-text">
               <p>As a part of a massive community of learners, we recognize that blockchain technology takes not only coders, but entrepreneurs, economists, lawyers, and anyone else with a passion for emerging tech.</p>
@@ -85,7 +85,7 @@ function App() {
             
             <div className="education-highlight">
               <h3>Focus on Fundamentals</h3>
-              <p>We emphasize understanding what blockchain truly is at its core, enabling you to identify and seize the opportunities we offer in consulting, governance, and beyond.</p>
+              <p>We emphasize understanding what blockchain truly is at its core, enabling you to take advantage of the opportunities we offer in consulting, governance, and beyond.</p>
             </div>
           </div>
         </div>
@@ -129,7 +129,7 @@ function App() {
           <h2> Governance </h2>
           <div className="governance-content">
             <div className="governance-text">
-              <p>Michigan Blockchain is a delegate for Uniswap, Arbtirum, Compound, and Origin Protocol. We are actively involved in protocol governance via proposal voting, creation, and decision making–all with the purpose of making the blockchain ecosystem cohesive and effective.</p>
+              <p>Michigan Blockchain is a delegate for Uniswap, Arbtirum, Compound, and Origin Protocol. We are actively involved in protocol governance via proposal voting, creation, and decision making–all with the purpose of making the blockchain ecosystem cohesive and effective. We have governed over $30M of tokens as an organization.</p>
             </div>
             <div className="governance-areas">
               <div className="governance-area">
@@ -152,7 +152,7 @@ function App() {
       {/* Investment Section */}
       <section id="investment" className="section">
         <div className="container">
-          <h2>Strategic Investment Research</h2>
+          <h2>Investment Research</h2>
           <div className="investment-content">
             <div className="investment-text">
               <p>Our investment research team analyzes emerging trends in the blockchain ecosystem, providing insights on DeFi protocols, NFT markets, and Web3 infrastructure opportunities.</p>
@@ -185,51 +185,50 @@ function App() {
           <h2>Meet Our Leadership</h2>
           <div className="leadership-grid">
             <div className="leader-card">
-              <div className="leader-avatar">👨‍💼</div>
+              <div className="leader-avatar"></div>
               <h3>Lucas Hodgson</h3>
               <p>President</p>
             </div>
             <div className="leader-card">
-              <div className="leader-avatar">👩‍💻</div>
+              <div className="leader-avatar"></div>
               <h3>Niket Kamat</h3>
-              <p></p>
+              <p>Head of Operations</p>
             </div>
             <div className="leader-card">
               <div className="leader-avatar">
-                <img src="/mateo-membreno.jpeg" alt="Mateo Membreno" />
               </div>
               <h3>Mateo Membreno</h3>
-              <p>Governance Lead</p>
+              <p>Head of Governance </p>
             </div>
             <div className="leader-card">
-              <div className="leader-avatar">👩‍💼</div>
+              <div className="leader-avatar"></div>
               <h3>Brian Marsan</h3>
-              <p>Investments Lead</p>
+              <p>Head of Investments</p>
             </div>
             <div className="leader-card">
-              <div className="leader-avatar">👨‍💼</div>
+              <div className="leader-avatar"></div>
               <h3>Jason Arendt</h3>
-              <p>Consulting Lead</p>
+              <p>Co-Head of Consulting</p>
             </div>
             <div className="leader-card">
-              <div className="leader-avatar">👩‍💻</div>
+              <div className="leader-avatar"></div>
               <h3>Ryan Kaelle</h3>
-              <p>izational excellence</p>
+              <p>Head of Technical Development</p>
             </div>
             <div className="leader-card">
-              <div className="leader-avatar">👩‍💻</div>
-              <h3>Simon </h3>
-              <p>Education Lead</p>
+              <div className="leader-avatar"></div>
+              <h3>Simon Insinger</h3>
+              <p>Head of Education</p>
             </div>
             <div className="leader-card">
-              <div className="leader-avatar">👩‍💻</div>
+              <div className="leader-avatar"></div>
               <h3>Kelsie Backus</h3>
-              <p>Marketing Co-Lead</p>
+              <p>Co-Head of Marketing</p>
             </div>
             <div className="leader-card">
-              <div className="leader-avatar">👩‍💻</div>
+              <div className="leader-avatar"></div>
               <h3>Payton Maloney </h3>
-              <p>Marketing Co-Lead</p>
+              <p>Co-Head of Marketing</p>
             </div>
           </div>
         </div>
@@ -255,7 +254,7 @@ function App() {
                 <img src="/EigenLayer.png" alt="EigenLayer" />
               </div>
               <div className="company-logo">
-                <img src="/GoldmanSachs.png" alt="Goldman Sachs" />
+                <img src="/GoldmanSachs.png" alt="Goldman Sachs" className="logo-small" />
               </div>
               <div className="company-logo">
                 <img src="/Palantir.png" alt="Palantir" />
@@ -276,7 +275,7 @@ function App() {
                 <img src="/AranaDigital.png" alt="Arana Digital" />
               </div>
               <div className="company-logo">
-                <img src="/MorganStanley.png" alt="Morgan Stanley" />
+                <img src="/MorganStanley.png" alt="Morgan Stanley" className="logo-small"/>
               </div>
               <div className="company-logo">
                 <img src="/1RoundTablePartners.png" alt="1RoundTable Partners" />
@@ -285,7 +284,7 @@ function App() {
                 <img src="/Amazon.png" alt="Amazon" />
               </div>
               <div className="company-logo">
-                <img src="/Deloitte.png" alt="Deloitte" />
+                <img src="/Deloitte.png" alt="Deloitte" className="logo-medium" />
               </div>
               <div className="company-logo">
                 <img src="/CharlesSchwab.png" alt="Charles Schwab" />
@@ -294,13 +293,13 @@ function App() {
                 <img src="/Guggenheim.png" alt="Guggenheim" />
               </div>
               <div className="company-logo">
-                <img src="/EY.png" alt="EY" />
+                <img src="/EY.png" alt="EY" className="logo-small" />
               </div>
               <div className="company-logo">
-                <img src="/LinkedIn.png" alt="LinkedIn" />
+                <img src="/LinkedIn.png" alt="LinkedIn" className="logo-large" />
               </div>
               <div className="company-logo">
-                <img src="/Meta.png" alt="Meta" />
+                <img src="/Meta.png" alt="Meta" className="logo-medium" />
               </div>
               <div className="company-logo">
                 <img src="/CapitalOne.png" alt="Capital One" />
@@ -319,26 +318,24 @@ function App() {
           <div className="footer-content">
             <div className="footer-section">
               <h3>Michigan Blockchain</h3>
-              <p>Advancing blockchain technology through education, innovation, and collaboration. Building the future of finance, one block at a time.</p>
+              <p>Advancing blockchain technology through education, innovation, and collaboration.</p>
             </div>
             <div className="footer-section">
               <h4>Get in Touch</h4>
-              <p>Email: michiganblockchain@umich.edu</p>
+              <p>Email: blockchain@umich.edu</p>
               <p>Location: University of Michigan, Ann Arbor</p>
               <p>Join our community of blockchain innovators</p>
             </div>
             <div className="footer-section">
               <h4>Connect With Us</h4>
               <div className="social-links">
-                <a href="#" className="social-link">LinkedIn</a>
-                <a href="#" className="social-link">Twitter</a>
-                <a href="#" className="social-link">Discord</a>
-                <a href="#" className="social-link">GitHub</a>
+                <a href="https://www.linkedin.com/company/umich-blockchain/posts/?feedView=all" className="social-link">LinkedIn</a>
+                <a href="https://x.com/umichblockchain?lang=en" className="social-link">Twitter</a>
               </div>
             </div>
           </div>
           <div className="footer-bottom">
-            <p>&copy; 2024 Michigan Blockchain. All rights reserved. | Building the future of decentralized finance.</p>
+            <p>&copy; 2024 Michigan Blockchain. All rights reserved.</p>
           </div>
         </div>
       </footer>

@@ -773,6 +773,7 @@ body {
   border: 2px solid transparent;
   position: relative;
   overflow: hidden;
+  height: 100px; /* Static height for uniform appearance */
 }
 
 .company-logo img {
@@ -780,6 +781,19 @@ body {
   max-height: 30px;
   object-fit: contain;
   display: block;
+}
+
+/* Logo size variations */
+.company-logo img.logo-small {
+  max-height: 45px;
+}
+
+.company-logo img.logo-medium {
+  max-height: 55px;
+}
+
+.company-logo img.logo-large {
+  max-height: 80px;
 }
 
 
