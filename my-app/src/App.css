@@ -19,7 +19,8 @@ body {
 
 /* Container */
 .container {
-  max-width: 1200px;
+  width: 100%;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 24px;
 }
@@ -38,7 +39,8 @@ body {
 }
 
 .nav-container {
-  max-width: 1200px;
+  width: 100%;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 24px;
   display: flex;
@@ -880,6 +882,36 @@ body {
 }
 
 /* Responsive Design */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1600px;
+  }
+  
+  .nav-container {
+    max-width: 1600px;
+  }
+  
+  .hero-content {
+    max-width: 1100px;
+  }
+  
+  .about-content {
+    gap: 8rem;
+  }
+  
+  .consulting-services {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+  
+  .governance-areas {
+    grid-template-columns: repeat(4, 250px);
+  }
+  
+  .leadership-grid {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+}
+
 @media (max-width: 768px) {
   .nav-links {
     display: none;
