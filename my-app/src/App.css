@@ -225,6 +225,8 @@ body {
   box-shadow: 0 15px 40px rgba(251, 177, 64, 0.4);
   position: relative;
   overflow: hidden;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .cta-button::before {
@@ -458,8 +460,10 @@ body {
 
 .consulting-services {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 2.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .service-item {
@@ -674,6 +678,153 @@ body {
 .focus-item p {
   color: #4a5568;
   line-height: 1.7;
+}
+
+/* Past Projects Section */
+.past-projects-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.past-projects-text {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.past-projects-text p {
+  font-size: 1.3rem;
+  color: #4a5568;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.projects-scroll {
+  overflow-x: auto;
+  position: relative;
+  background: linear-gradient(135deg, #fafbfc 0%, #f0f2f5 100%);
+  border-radius: 20px;
+  padding: 2rem 0;
+  box-shadow: 0 20px 40px rgba(38, 34, 98, 0.08);
+}
+
+.projects-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+
+.projects-scroll::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}
+
+.projects-scroll::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #fbb140, #ff8c00);
+  border-radius: 4px;
+}
+
+.projects-scroll::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(90deg, #ff8c00, #fbb140);
+}
+
+.projects-container {
+  display: flex;
+  gap: 1.5rem;
+  padding: 0 2rem;
+  min-width: max-content;
+}
+
+.project-item {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(38, 34, 98, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  min-width: 280px;
+  max-width: 280px;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #fbb140, #ff8c00);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.project-item:hover::before {
+  transform: scaleX(1);
+}
+
+.project-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 25px 50px rgba(38, 34, 98, 0.15);
+}
+
+.project-team {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: white;
+}
+
+.project-team.consulting {
+  background: linear-gradient(135deg, #fbb140, #ff8c00);
+}
+
+.project-team.governance {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.project-team.investment {
+  background: linear-gradient(135deg, #f093fb, #f5576c);
+}
+
+.project-content {
+  margin-top: 2rem;
+}
+
+.project-content h4 {
+  color: #1a1a1a;
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.project-content p {
+  color: #4a5568;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.project-link {
+  color: #fbb140;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.85rem;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.project-link:hover {
+  color: #ff8c00;
+  transform: translateX(4px);
 }
 
 /* Leadership Section */
@@ -914,7 +1065,8 @@ body {
   }
   
   .consulting-services {
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
   }
   
   .governance-areas {
@@ -960,8 +1112,23 @@ body {
     grid-template-columns: 1fr;
   }
   
+  .consulting-services {
+    gap: 2rem;
+  }
+  
   .company-grid {
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+  
+  .project-item {
+    min-width: 260px;
+    max-width: 260px;
+    padding: 1.25rem;
+  }
+  
+  .projects-container {
+    gap: 1rem;
+    padding: 0 1.5rem;
   }
   
   .container {
@@ -995,5 +1162,20 @@ body {
   
   .section {
     padding: 4rem 0;
+  }
+  
+  .project-item {
+    min-width: 240px;
+    max-width: 240px;
+    padding: 1rem;
+  }
+  
+  .projects-container {
+    gap: 0.75rem;
+    padding: 0 1rem;
+  }
+  
+  .projects-scroll {
+    padding: 1.5rem 0;
   }
 }

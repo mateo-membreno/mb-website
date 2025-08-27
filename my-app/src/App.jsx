@@ -34,7 +34,7 @@ function App() {
           </div>
           <h1>Building the Future of Blockchain</h1>
           <p>Michigan Blockchain is the premier student organization advancing blockchain technology, DeFi innovation, and digital asset education at the University of Michigan. We're shaping the next generation of leaders in crypto.</p>
-          <button className="cta-button">Join Us!</button>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdiZDnU-9lyeff_U3zL-EwTyOKroH788VbnjaH1jLOwDPL3qg/viewform" target="_blank" rel="noopener noreferrer" className="cta-button">Apply Now!</a>
         </div>
         <div className="hero-background"></div>
       </section>
@@ -80,7 +80,7 @@ function App() {
               
               <p>Our education cohort not only learns valuable developer skills, but also the necessary business context to understand where to apply blockchain solutions.</p>
               
-              <p>The education cohort culminates in a final project showcase that all cohort members participate in to graduate from the cohort and be eligible for consulting and governance opportunities.</p>
+              <p>The education cohort culminates in a final project showcase that all cohort members participate in to graduate from the cohort and be eligible for opportunities on our Consulting, Governance, and Investment teams.</p>
             </div>
             
             <div className="education-highlight">
@@ -97,7 +97,7 @@ function App() {
           <h2>Enterprise Blockchain Solutions</h2>
           <div className="consulting-content">
             <div className="consulting-text">
-              <p>We partner with forward-thinking organizations to implement blockchain solutions that drive innovation, bring customers, and create new business models.</p>
+              <p>We partner with forward-thinking organizations to implement blockchain solutions that drive innovation, bring customers, and create new business models. Our consulting projects span a wide range of areas—including developer-focused builds, market research, protocol strategy, and marketing—allowing us to tailor our work based on our students and the unique needs of each partner. </p>
             </div>
             <div className="consulting-services">
               <div className="service-item">
@@ -155,7 +155,7 @@ function App() {
           <h2>Investment Research</h2>
           <div className="investment-content">
             <div className="investment-text">
-              <p>Our investment research team analyzes emerging trends in the blockchain ecosystem, providing insights on DeFi protocols, NFT markets, and Web3 infrastructure opportunities.</p>
+              <p>Our investment research team analyzes emerging trends in the blockchain ecosystem, compiling insights throughout sectors and applying them to our 40 ETH portfolio. This is part of our annual competition with 20 top university clubs in collaboration with Dorm DAO.</p>
             </div>
             <div className="investment-focus">
               <div className="focus-item">
@@ -163,21 +163,19 @@ function App() {
                 <p>Comprehensive analysis of decentralized finance protocols and yield optimization strategies</p>
               </div>
               <div className="focus-item">
-                <h4>NFT Markets</h4>
-                <p>Research on digital art, collectibles, and the evolving landscape of non-fungible tokens</p>
+                <h4>Meet Professionals</h4>
+                <p>Speak with investors from various firms, growing your network and industry knowledge</p>
               </div>
               <div className="focus-item">
                 <h4>Layer 2 Solutions</h4>
                 <p>Evaluation of scaling solutions and infrastructure investments in the blockchain ecosystem</p>
               </div>
-              <div className="focus-item">
-                <h4>Web3 Startups</h4>
-                <p>Due diligence and analysis of early-stage blockchain companies and investment opportunities</p>
-              </div>
             </div>
           </div>
         </div>
       </section>
+
+
 
       {/* Leadership Team Section */}
       <section id="leadership" className="section">
@@ -239,7 +237,7 @@ function App() {
         <div className="container">
           <h2>Where Our Alumni Are Building the Future</h2>
           <div className="alumni-content">
-            <p>Our graduates are now working at the world's most innovative companies at the intersection of finance and technology.</p>
+            <p>Our graduates and interns are now working at the world's most innovative companies at the intersection of finance and technology.</p>
             <div className="company-grid">
               <div className="company-logo">
                 <img src="/Coinbase.png" alt="Coinbase" />
@@ -269,16 +267,13 @@ function App() {
                 <img src="/Bain.png" alt="Bain" />
               </div>
               <div className="company-logo">
-                <img src="/ChainwayLabs.png" alt="Chainway Labs" />
-              </div>
-              <div className="company-logo">
-                <img src="/AranaDigital.png" alt="Arana Digital" />
+                <img src="/Citrea.png" alt="Chainway Labs" className="logo-medium"/>
               </div>
               <div className="company-logo">
                 <img src="/MorganStanley.png" alt="Morgan Stanley" className="logo-small"/>
               </div>
               <div className="company-logo">
-                <img src="/1RoundTablePartners.png" alt="1RoundTable Partners" />
+                <img src="/1RoundTablePartners.png" alt="1RoundTable Partners" className="logo-medium" />
               </div>
               <div className="company-logo">
                 <img src="/Amazon.png" alt="Amazon" />
@@ -288,9 +283,6 @@ function App() {
               </div>
               <div className="company-logo">
                 <img src="/CharlesSchwab.png" alt="Charles Schwab" />
-              </div>
-              <div className="company-logo">
-                <img src="/Guggenheim.png" alt="Guggenheim" />
               </div>
               <div className="company-logo">
                 <img src="/EY.png" alt="EY" className="logo-small" />
@@ -324,13 +316,12 @@ function App() {
               <h4>Get in Touch</h4>
               <p>Email: blockchain@umich.edu</p>
               <p>Location: University of Michigan, Ann Arbor</p>
-              <p>Join our community of blockchain innovators</p>
             </div>
             <div className="footer-section">
               <h4>Connect With Us</h4>
               <div className="social-links">
                 <a href="https://www.linkedin.com/company/umich-blockchain/posts/?feedView=all" className="social-link">LinkedIn</a>
-                <a href="https://x.com/umichblockchain?lang=en" className="social-link">Twitter</a>
+                <a href="https://x.com/MichBlockchain" className="social-link">Twitter</a>
               </div>
             </div>
           </div>
